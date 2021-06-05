@@ -1,0 +1,74 @@
+p{
+    padding: auto;
+}
+#mobile p{
+    border: 1px solid green;
+    border-radius: 10px 0px 10px 10px ;
+    width: 400px;
+    padding: 5px;
+    /* box-shadow: 2px -2px 5px 2px lightgreen; */
+    box-shadow: 2px -2px 5px 2px lightgreen,4px -4px 5px 2px lightblue,6px -6px 5px 2px lightsalmon;
+    /* box-shadow: 2px -2px 5px 2px lightgreen  inset; */
+}
+h1{
+    width: 100%;
+    padding-right: 20px; 
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+}
+#pa{
+    /* width: 500px;  */
+    /* height: 100px; */
+    /* min-width: 100px; */
+    /* max-width: 900px; */
+    /* min-height: 40px; */
+    /* max-height: 900px; */
+     margin: auto;
+    padding:  10px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#box{
+    width: 700px;
+    margin: 5px;
+    padding: 50px;
+    border: 30px solid black;
+    box-sizing: border-box;
+}
+#mobile{
+    width: 500px;
+    height: 300px;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+    border: 2px solid black;
+}
+#float1{
+    border: 2px solid black;
+    width: 500px;
+    float: left;
+    margin: 2px;
+}
+#float2{
+    border: 2px solid black;
+    width: 500px;
+    float: left;
+    margin: 2px;
+}
+#float3{
+    clear: both;
+}
+
+#text{
+    width: 400px;
+    padding: 20px;
+    border: 2px solid black;
+    /* text-align: left;
+    text-align-last:right;
+    text-transform: uppercase; */
+    text-indent: 100px;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}
